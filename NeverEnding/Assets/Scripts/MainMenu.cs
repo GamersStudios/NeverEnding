@@ -8,13 +8,11 @@ public class MainMenu : MonoBehaviour
 
     public GameObject pauseMenu;
     public GameObject MainManu;
-    public GameObject Op;
     public bool isPaused;
 
     public void Start()
     {
         MainManu.SetActive(true);
-        Op.SetActive(false);
     }
     
     public void Play()
