@@ -3106,6 +3106,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7002589040343361630, guid: 270408f4a4ba3624fb28693904524788, type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 8881597963145652697}
     - target: {fileID: 8881597962098343306, guid: 270408f4a4ba3624fb28693904524788, type: 3}
       propertyPath: m_CastShadows
       value: 3
