@@ -4,23 +4,19 @@ using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
-public Transform player;
 
-    void Start()
-    {
-        // Update camera position to match player position
-        transform.position = player.position;
+    Vector2 rotation = Vector2.zero;
+	public float speed = 3;
 
-        // Update player rotation to match camera rotation
-        player.rotation = transform.rotation;
-    }
+	void Update () {
+		rotation.y += Input.GetAxis ("Mouse X");
+		rotation.x += -Input.GetAxis ("Mouse Y");
+		transform.eulerAngles = (Vector2)rotation * speed;
+	}
+
+
+
 }
-
-
-
-
-
-
 
 
 

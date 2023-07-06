@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-// Some stupid rigidbody based movement by Dani
-
 using System;
 using UnityEngine;
+// Some stupid rigidbody based movement by Dani
 
 public class PlayerMovement : MonoBehaviour {
 
