@@ -483,8 +483,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707405630}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.03, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.1199934, y: 0.020000415, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -968,9 +968,9 @@ Transform:
   - {fileID: 7809257243165939238}
   - {fileID: 3386468120204979823}
   - {fileID: 5831965478959542451}
-  - {fileID: 1707405631}
   - {fileID: 8342554}
   - {fileID: 647622783}
+  - {fileID: 1707405631}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1005,18 +1005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4190730ef6ccc544abecf0a6f3c5f7b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCam: {fileID: 647622783}
-  orientation: {fileID: 1707405631}
   moveSpeed: 4500
-  maxSpeed: 20
-  grounded: 0
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  counterMovement: 0.175
-  maxSlopeAngle: 35
-  slideForce: 400
-  slideCounterMovement: 0.2
   jumpForce: 550
 --- !u!65 &4924406226971300214
 BoxCollider:
